@@ -7,7 +7,6 @@
   --hover-color: #a3c4f3;
 }
 
-/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +42,6 @@ body {
   font-weight: 300;
 }
 
-/* BUTTONS */
 .btn {
   display: inline-block;
   padding: 12px 30px;
@@ -62,8 +60,6 @@ body {
   background: var(--hover-color);
   box-shadow: 0 0 15px var(--hover-color);
 }
-
-/* HERO */
 .hero {
   position: relative;
   height: 90vh;
@@ -99,13 +95,12 @@ body {
   font-size: 1.2rem;
   color: #ddd;
 }
-/* ABOUT */
 .about {
   padding: 80px 0;
   background-color: var(--bg-color);
 }
 
-/* SERVICES */
+
 .services {
   padding: 80px 0;
   background-color: var(--panel-color);
@@ -132,7 +127,7 @@ body {
   box-shadow: 0 0 20px var(--accent-color);
 }
 
-/* PROJECTS */
+
 .projects {
   padding: 80px 0;
   background-color: var(--bg-color);
@@ -183,7 +178,7 @@ body {
   background: rgba(123, 44, 191, 0.3);
 }
 
-/* CONTACT */
+
 .contact {
   padding: 80px 0;
   background-color: var(--panel-color);
@@ -211,7 +206,6 @@ body {
   align-self: center;
 }
 
-/* FOOTER */
 .footer {
   text-align: center;
   padding: 40px 0;
