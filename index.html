@@ -79,6 +79,20 @@
     <footer class="footer">
       <p>© 2025 CINEMATIC Studio — Every Frame Tells a Story</p>
     </footer>
+   
+    @keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero h1 {
+  animation: fadeUp 1.2s ease-out forwards;
+}
 
   </div>
 </body>
