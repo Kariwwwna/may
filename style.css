@@ -213,26 +213,13 @@ body {
   color: #bbb;
   font-size: 0.9rem;
 }
-.hero__title {
-  opacity: 0;
-  transform: translateY(40px);
-  animation: fadeUp 1.2s ease-out forwards;
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
-.hero__subtitle {
-  opacity: 0;
-  transform: translateY(40px);
-  animation: fadeUp 1.2s ease-out forwards;
-  animation-delay: 0.5s; /* появляется чуть позже */
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+@keyframes fadeInUp {
+  from {opacity: 0; transform: translateY(40px);}
+  to {opacity: 1; transform: translateY(0);}
 }
