@@ -213,7 +213,7 @@ body {
   color: #bbb;
   font-size: 0.9rem;
 }
-.title {
+.hero__title {
   opacity: 0;
   transform: translateY(-20px);
   animation: fadeIn 1.5s ease-out forwards;
